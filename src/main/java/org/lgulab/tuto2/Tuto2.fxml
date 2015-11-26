@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" >
+	
+	<fx:define>
+		<Double fx:id="MY_DOUBLE" fx:value="12.34"/>
+	</fx:define>
+	
+		<Button text="Click here" fx:id="myButton"  onAction="#doSomething" />
+		<TextField  text="$MY_DOUBLE"   />
+		<TextField  text="${MY_DOUBLE}"   />
+		
+</FlowPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" >
+
+<!-- 
+	fx:controller="org.lgulab.tuto1.Tuto1Controller">
+ -->
+	
+	<!-- Controller name in FXML : pb when refactoring -->
+	
+   <center>
+
+		<Button text="Click here" fx:id="myButton"  onAction="#doSomething" />
+		
+   </center>
+</BorderPane>
